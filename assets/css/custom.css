@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Reset form elements */
+input,
+button,
+textarea,
+select {
+  outline: none;
+  border: none;
+  background: none;
+}/*# sourceMappingURL=custom.css.map */
