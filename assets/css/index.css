@@ -1,0 +1,298 @@
+.hero-section-wrapper {
+  padding: 120px 0 70px;
+  position: relative;
+}
+.hero-section-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-color: #182E62;
+  z-index: -1;
+}
+.hero-section-wrapper .hero-section-top {
+  margin-bottom: 90px;
+}
+.hero-section-wrapper .hero-section-top .heading-wrapper .title {
+  font-family: "YoungSerif", sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #fff;
+  max-width: 505px;
+}
+.hero-section-wrapper .hero-section-top .heading-wrapper .title span {
+  color: #E78C20;
+}
+.hero-section-wrapper .hero-section-top .hero-section-content p {
+  margin-bottom: 40px;
+  color: #fff;
+}
+.hero-section-wrapper .hero-section-bottom .hero-banner-img {
+  width: 100%;
+  height: 720px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.hero-section-wrapper .hero-section-bottom .hero-banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.team-section-wrapper {
+  padding: 80px 0 40px;
+  background-color: #EDEDED;
+}
+.team-section-wrapper .team-section-inner .section-heading {
+  margin-bottom: 80px;
+}
+.team-section-wrapper .team-section-inner .section-heading h2 {
+  text-align: center;
+}
+.team-section-wrapper .team-section-inner .card-container {
+  margin-bottom: 40px;
+  height: calc(100% - 40px);
+}
+.team-section-wrapper .team-section-inner .card-container .card {
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #DDDDDD;
+  background-color: #F9FAFB;
+  height: 100%;
+}
+.team-section-wrapper .team-section-inner .card-container .card .card-icon {
+  width: 64px;
+  margin-bottom: 20px;
+}
+.team-section-wrapper .team-section-inner .card-container .card .card-body {
+  padding: 0;
+}
+.team-section-wrapper .team-section-inner .card-container .card .card-body .card-title {
+  margin-bottom: 20px;
+}
+
+.service-section-wrapper {
+  padding: 80px 0;
+}
+.service-section-wrapper .section-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.service-section-wrapper .section-heading .title {
+  margin-bottom: 24px;
+}
+.service-section-wrapper .section-heading p {
+  max-width: 768px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.service-section-wrapper .service-cardV {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 16px;
+  height: 100%;
+}
+.service-section-wrapper .service-cardV .service-img {
+  border-radius: 16px 16px 0px 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 420px;
+}
+.service-section-wrapper .service-cardV .service-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.service-section-wrapper .service-cardV .service-content {
+  padding: 48px;
+}
+.service-section-wrapper .service-cardV .service-content .title {
+  margin-bottom: 24px;
+}
+.service-section-wrapper .service-cardV .service-content .details {
+  margin-bottom: 32px;
+}
+.service-section-wrapper .service-cardH {
+  display: flex;
+  align-items: stretch;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 16px;
+  min-height: 368px;
+}
+.service-section-wrapper .service-cardH:not(:last-child) {
+  margin-bottom: 24px;
+}
+.service-section-wrapper .service-cardH .service-img {
+  width: 50%;
+  border-radius: 16px 0px 0px 16px;
+  overflow: hidden;
+}
+.service-section-wrapper .service-cardH .service-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.service-section-wrapper .service-cardH .service-content {
+  width: 50%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-section-wrapper .service-cardH .service-content .title {
+  margin-bottom: 16px;
+}
+.service-section-wrapper .service-cardH .service-content .details {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1366px) {
+  .team-section-wrapper .team-section-inner .card-container {
+    margin-bottom: 20px;
+    height: calc(100% - 20px);
+  }
+}
+@media (max-width: 1200px) {
+  .hero-section-wrapper {
+    padding: 50px 0;
+  }
+  .hero-section-wrapper .hero-section-top {
+    margin-bottom: 40px;
+  }
+  .hero-section-wrapper .hero-section-top .heading-wrapper {
+    margin-bottom: 15px;
+  }
+  .hero-section-wrapper .hero-section-top .heading-wrapper .title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .hero-section-wrapper .hero-section-top .hero-section-content p {
+    margin-bottom: 20px;
+  }
+  .hero-section-wrapper .hero-section-bottom .hero-banner-img {
+    height: 520px;
+  }
+  .team-section-wrapper {
+    padding: 50px 0 30px;
+  }
+  .team-section-wrapper .team-section-inner .section-heading {
+    margin-bottom: 40px;
+  }
+  .service-section-wrapper {
+    padding: 50px 0;
+  }
+  .service-section-wrapper .section-heading {
+    margin-bottom: 40px;
+  }
+  .service-section-wrapper .section-heading .title {
+    margin-bottom: 12px;
+  }
+  .service-section-wrapper .service-cardV .service-content {
+    padding: 38px;
+  }
+}
+@media (max-width: 991px) {
+  .team-section-wrapper .team-section-inner .section-heading {
+    margin-bottom: 30px;
+  }
+  .team-section-wrapper .team-section-inner .card-container .card .card-icon {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  .team-section-wrapper .team-section-inner .card-container .card .card-body .card-title {
+    margin-bottom: 10px;
+  }
+  .service-section-wrapper .section-heading {
+    margin-bottom: 30px;
+  }
+  .service-section-wrapper .service-cardV {
+    height: unset;
+    margin-bottom: 24px;
+  }
+  .service-section-wrapper .service-cardV .service-img {
+    height: 270px;
+  }
+  .service-section-wrapper .service-cardV .service-content {
+    padding: 22px;
+  }
+  .service-section-wrapper .service-cardV .service-content .title {
+    margin-bottom: 12px;
+  }
+  .service-section-wrapper .service-cardV .service-content .details {
+    margin-bottom: 12px;
+  }
+  .service-section-wrapper .service-cardH {
+    min-height: 240px;
+  }
+  .service-section-wrapper .service-cardH:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .service-section-wrapper .service-cardH .service-img {
+    width: 30%;
+  }
+  .service-section-wrapper .service-cardH .service-content {
+    width: 70%;
+  }
+  .service-section-wrapper .service-cardH .service-content .title {
+    margin-bottom: 12px;
+  }
+  .service-section-wrapper .service-cardH .service-content .details {
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-section-wrapper {
+    padding: 30px 0;
+  }
+  .hero-section-wrapper .hero-section-bottom .hero-banner-img {
+    height: 350px;
+  }
+  .service-section-wrapper .service-cardV .service-img {
+    height: 200px;
+  }
+  .service-section-wrapper .service-cardV .service-content {
+    padding: 15px;
+  }
+  .service-section-wrapper .service-cardH {
+    min-height: 190px;
+  }
+  .service-section-wrapper .service-cardH .service-content {
+    padding: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .hero-section-wrapper {
+    padding: 10px 0 30px;
+  }
+  .hero-section-wrapper .hero-section-top {
+    margin-bottom: 25px;
+  }
+  .hero-section-wrapper .hero-section-top .heading-wrapper .title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .team-section-wrapper {
+    padding: 30px 0;
+  }
+  .service-section-wrapper {
+    padding: 30px 0;
+  }
+  .service-section-wrapper .service-cardH {
+    flex-direction: column;
+  }
+  .service-section-wrapper .service-cardH .service-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 16px 16px 0px 0px;
+  }
+  .service-section-wrapper .service-cardH .service-content {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.css.map */

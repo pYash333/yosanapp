@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('/assets/fonts/Lexend-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Lexend-Medium.woff') format('woff'),
+        url('/assets/fonts/Lexend-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('/assets/fonts/YoungSerif-Regular.woff2') format('woff2'),
+        url('/assets/fonts/YoungSerif-Regular.woff') format('woff'),
+        url('/assets/fonts/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/assets/fonts/Lexend-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Lexend-SemiBold.woff') format('woff'),
+        url('/assets/fonts/Lexend-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/assets/fonts/Lexend-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Lexend-Regular.woff') format('woff'),
+        url('/assets/fonts/Lexend-Regular.ttf') format('truetype');
+    font-weight: normal;
+}

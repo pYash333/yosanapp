@@ -1,0 +1,94 @@
+header{
+    background-color: #182E62;
+    .navbar-brand{
+        width: 63px;
+    }
+    .navbar-toggler{
+        background-color: #fff;
+        outline: 0 !important;
+        box-shadow: none !important;
+        
+    }
+    .navbar{
+        .top-menu{
+            .offcanvas-header{
+                border: 0;
+                .btn-close{
+                    margin-left: auto;
+                        opacity: 1;
+                        border: 1px solid #fff;
+                }
+            }
+                .offcanvas-body{
+                    width: 100%;
+                    justify-content: space-between;
+                    align-items: center;
+                    .navbar-nav{
+                        width: 100%;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 16px 0;
+                        .nav-item{
+                            &:not(:last-child){
+                                margin-right: 32px;
+                            }
+                            .nav-link{
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #fff;
+                                padding: 0;
+                                transition: .2s linear;
+                                &:hover{
+                                    color: #E78C20;
+                                }
+                                &.dropdown-toggle{
+                                    display: flex;
+                                    align-items: center;
+                                    &::after{
+                                        width: 12px;
+                                        height: 7px;
+                                        background-image: url(../images/down-arrow.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        border: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-wrapper{
+                        display: flex;
+                       gap: 16px;
+                    }
+                }
+        }
+    }
+}
+
+@media(max-width: 991px){
+    header{
+        
+        .navbar{
+            .top-menu{
+                .offcanvas-header{
+                    background-color: #182E62;
+                }
+                .offcanvas-body{
+                    background-color: #182E62;
+                    .navbar-nav{
+                        align-items: flex-start;
+                        padding: 0;
+                        .nav-item{
+                            display: block;
+                            width: 100%;
+                            margin-bottom: 15px;
+                            margin-right: 0 !important;
+                           
+                        } 
+                    } 
+                } 
+            } 
+        } 
+    } 
+    
+}

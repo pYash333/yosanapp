@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: "Lexend", sans-serif;
   font-size: 16px;
   color: #000;
 }
@@ -21,4 +22,177 @@ select {
   outline: none;
   border: none;
   background: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-family: "YoungSerif", sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #000;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #000;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  transition: 0.2s linear;
+}
+
+.btn-outline-primary {
+  color: #B8BECD;
+  border: 1px solid #B8BECD;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #fff;
+  color: #182E62;
+  border: 1px solid #fff;
+}
+
+.text-link {
+  background-color: transparent;
+  color: #2C48A8 !important;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  transition: 0.2s linear;
+}
+.text-link span {
+  width: 12px;
+  margin-left: 16px;
+}
+.text-link:hover {
+  transform: translateX(5px);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #12B4BC 0%, #004AAD 100%);
+  border: 0;
+}
+
+.btn-secondary {
+  background-color: #2C48A8 !important;
+  border: 0;
+}
+
+.custom-row {
+  margin: 0 -20px;
+}
+
+.custom-col {
+  padding: 0 20px;
+}
+
+@media (max-width: 1366px) {
+  .custom-row {
+    margin: 0 -10px;
+  }
+  .custom-col {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 991px) {
+  h2 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  h4 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .btn {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 575px) {
+  h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .btn {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }/*# sourceMappingURL=custom.css.map */
