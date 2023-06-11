@@ -16,7 +16,12 @@ header{
                 .btn-close{
                     margin-left: auto;
                         opacity: 1;
-                        border: 1px solid #fff;
+                        width: 10px;
+                        height: 10px;
+                        background: url(../images/close-btn.svg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
                 }
             }
                 .offcanvas-body{

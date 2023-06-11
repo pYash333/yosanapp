@@ -63,6 +63,10 @@
   border: 1px solid #DDDDDD;
   background-color: #F9FAFB;
   height: 100%;
+  transition: box-shadow 0.3s ease;
+}
+.team-section-wrapper .team-section-inner .card-container .card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .team-section-wrapper .team-section-inner .card-container .card .card-icon {
   width: 64px;
@@ -95,6 +99,10 @@
   border: 1px solid #DDDDDD;
   border-radius: 16px;
   height: 100%;
+  transition: box-shadow 0.3s ease;
+}
+.service-section-wrapper .service-cardV:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .service-section-wrapper .service-cardV .service-img {
   border-radius: 16px 16px 0px 0px;
@@ -124,6 +132,10 @@
   border: 1px solid #DDDDDD;
   border-radius: 16px;
   min-height: 368px;
+  transition: box-shadow 0.3s ease;
+}
+.service-section-wrapper .service-cardH:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .service-section-wrapper .service-cardH:not(:last-child) {
   margin-bottom: 24px;
@@ -151,6 +163,253 @@
 }
 .service-section-wrapper .service-cardH .service-content .details {
   margin-bottom: 24px;
+}
+
+.products-section-wrapper {
+  padding: 80px 0;
+}
+.products-section-wrapper .products-tab #myTab {
+  border: 0;
+  margin-bottom: 48px;
+}
+.products-section-wrapper .products-tab #myTab .nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+.products-section-wrapper .products-tab #myTab .nav-item .nav-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000000;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 1.5px solid transparent;
+}
+.products-section-wrapper .products-tab #myTab .nav-item .nav-link:hover {
+  border-bottom: 1.5px solid #BABABA;
+}
+.products-section-wrapper .products-tab #myTab .nav-item .nav-link.active {
+  border-bottom: 1.5px solid #BABABA;
+}
+.products-section-wrapper .products-tab .tab-content .product-details-left {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.products-section-wrapper .products-tab .tab-content .product-details-left .section-heading {
+  margin-bottom: 32px;
+}
+.products-section-wrapper .products-tab .tab-content .product-details-left .section-heading .title {
+  margin-bottom: 24px;
+}
+.products-section-wrapper .products-tab .tab-content .product-details-right {
+  height: 100%;
+}
+.products-section-wrapper .products-tab .tab-content .product-details-right .product-img {
+  max-width: 667px;
+  height: 680px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.products-section-wrapper .products-tab .tab-content .product-details-right .product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.caseStudy-section-wrapper {
+  padding: 40px 0;
+}
+.caseStudy-section-wrapper .section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 80px;
+}
+.caseStudy-section-wrapper .section-heading .top-subheading {
+  margin-bottom: 16px;
+}
+.caseStudy-section-wrapper .section-heading .title {
+  margin-bottom: 24px;
+}
+.caseStudy-section-wrapper .case-study-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item {
+  transition: box-shadow 0.3s ease;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-left {
+  height: 100%;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-left .case-study-item-img {
+  width: 100%;
+  height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-left .case-study-item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 54px;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .case-study-title {
+  margin-bottom: 8px;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .case-study-info {
+  margin-bottom: 16px;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .badges .badge {
+  padding: 4px 8px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  background: #F4F4F4;
+  color: #000000;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .btn-primary {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .btn-primary .icon {
+  width: 13px;
+  margin-left: 20px;
+}
+
+.blog-section-wrapper {
+  padding: 80px 0;
+  background-color: #F7F7F7;
+}
+.blog-section-wrapper .section-heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.blog-section-wrapper .blog-card {
+  display: block;
+  height: 400px;
+  position: relative;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.blog-section-wrapper .blog-card .blog-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.blog-section-wrapper .blog-card .blog-img img {
+  width: inherit;
+  height: inherit;
+}
+.blog-section-wrapper .blog-card .blog-content {
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.blog-section-wrapper .blog-card .blog-content .blog-details {
+  width: 100%;
+  height: fit-content;
+}
+.blog-section-wrapper .blog-card .blog-content .blog-details .date {
+  margin-bottom: 8px;
+}
+.blog-section-wrapper .blog-card .blog-content .blog-details .title {
+  color: #fff;
+  margin-bottom: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+.blog-section-wrapper .blog-card .blog-content .blog-details .social-icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.blog-section-wrapper .blog-card .blog-content .blog-details .social-icons span {
+  display: inline-block;
+  width: 22px;
+}
+.blog-section-wrapper .btn-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+.blog-section-wrapper .btn-wrapper .btn-primary {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.connect-section-wrapper {
+  padding: 120px 0;
+  background: url(https://dummyimage.com/400x400/000/000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.connect-section-wrapper .connect-left {
+  color: #fff;
+}
+.connect-section-wrapper .connect-left .title {
+  color: #fff;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+.connect-section-wrapper .connect-right {
+  max-width: 520px;
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.connect-section-wrapper .connect-right form {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+.connect-section-wrapper .connect-right form .input-wrapper {
+  width: 100%;
+}
+.connect-section-wrapper .connect-right form .btn-primary {
+  padding: 13px 24px;
 }
 
 @media (max-width: 1366px) {
@@ -196,6 +455,46 @@
   }
   .service-section-wrapper .service-cardV .service-content {
     padding: 38px;
+  }
+  .products-section-wrapper {
+    padding: 50px 0;
+  }
+  .products-section-wrapper .products-tab #myTab {
+    margin-bottom: 25px;
+  }
+  .products-section-wrapper .products-tab .tab-content .product-details-left .section-heading {
+    margin-bottom: 24px;
+  }
+  .products-section-wrapper .products-tab .tab-content .product-details-left .section-heading .title {
+    margin-bottom: 12px;
+  }
+  .products-section-wrapper .products-tab .tab-content .product-details-right .product-img {
+    height: 500px;
+  }
+  .caseStudy-section-wrapper .section-heading {
+    margin-bottom: 50px;
+  }
+  .caseStudy-section-wrapper .section-heading .top-subheading {
+    margin-bottom: 12px;
+  }
+  .caseStudy-section-wrapper .section-heading .title {
+    margin-bottom: 12px;
+  }
+  .caseStudy-section-wrapper .case-study-list .case-study-item .case-study-left .case-study-item-img {
+    height: 250px;
+  }
+  .caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right {
+    padding-left: 0;
+  }
+  .connect-section-wrapper {
+    padding: 80px 0;
+  }
+  .connect-section-wrapper .connect-left .section-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .connect-section-wrapper .connect-left .section-heading .title {
+    margin-bottom: 12px;
   }
 }
 @media (max-width: 991px) {
@@ -246,6 +545,63 @@
   .service-section-wrapper .service-cardH .service-content .details {
     margin-bottom: 12px;
   }
+  .products-section-wrapper .products-tab #myTab .nav-item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .products-section-wrapper .products-tab #myTab .nav-item .nav-link {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .products-section-wrapper .products-tab .tab-content .product-details-left {
+    padding-bottom: 30px;
+  }
+  .caseStudy-section-wrapper {
+    padding: 30px 0;
+  }
+  .caseStudy-section-wrapper .section-heading {
+    margin-bottom: 30px;
+  }
+  .caseStudy-section-wrapper .case-study-list .case-study-item .case-study-left {
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right {
+    padding: 20px;
+  }
+  .caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .case-study-info {
+    margin-bottom: 12px;
+  }
+  .caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .badges {
+    margin-bottom: 20px;
+  }
+  .caseStudy-section-wrapper .case-study-list .case-study-item .case-study-right .badges .badge {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .blog-section-wrapper {
+    padding: 50px 0;
+  }
+  .blog-section-wrapper .section-heading {
+    margin-bottom: 30px;
+  }
+  .blog-section-wrapper .blog-card .blog-content .blog-details .title {
+    margin-bottom: 12px;
+  }
+  .blog-section-wrapper .blog-card .blog-content .blog-details .social-icons {
+    gap: 15px;
+  }
+  .blog-section-wrapper .blog-card .blog-content .blog-details .social-icons span {
+    width: 15px;
+  }
+  .connect-section-wrapper {
+    padding: 50px 0;
+  }
+  .connect-section-wrapper .connect-right {
+    margin: auto;
+  }
+  .connect-section-wrapper .connect-right form .btn-primary {
+    padding: 11px 24px;
+  }
 }
 @media (max-width: 767px) {
   .hero-section-wrapper {
@@ -265,6 +621,20 @@
   }
   .service-section-wrapper .service-cardH .service-content {
     padding: 15px;
+  }
+  .caseStudy-section-wrapper .section-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .caseStudy-section-wrapper .section-heading .top-subheading {
+    margin-bottom: 6px;
+  }
+  .caseStudy-section-wrapper .section-heading .title {
+    margin-bottom: 6px;
+  }
+  .blog-section-wrapper .blog-card {
+    height: 270px;
   }
 }
 @media (max-width: 575px) {
@@ -294,5 +664,35 @@
   }
   .service-section-wrapper .service-cardH .service-content {
     width: 100%;
+  }
+  .products-section-wrapper .products-tab #myTab {
+    margin-bottom: 16px;
+  }
+  .products-section-wrapper .products-tab #myTab .nav-item .nav-link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .products-section-wrapper .products-tab .tab-content .product-details-left .section-heading {
+    margin-bottom: 12px;
+  }
+  .products-section-wrapper .products-tab .tab-content .product-details-right .product-img {
+    height: 350px;
+  }
+  .caseStudy-section-wrapper .case-study-list .case-study-item .case-study-left .case-study-item-img {
+    height: 180px;
+  }
+  .blog-section-wrapper {
+    padding: 30px 0 10px;
+  }
+  .blog-section-wrapper .blog-card {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .connect-section-wrapper {
+    padding: 30px 0;
+  }
+  .connect-section-wrapper .connect-right form {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=index.css.map */
